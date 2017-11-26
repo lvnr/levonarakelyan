@@ -15,7 +15,7 @@ const HomePage = () => {
 class levon extends human {
 
    profession = null
-   fortes = ['quick study']
+   fortes = ['quick study', 'attention to detail']
 
    ${ <Link to='/interests'>interests()</Link> }
 
