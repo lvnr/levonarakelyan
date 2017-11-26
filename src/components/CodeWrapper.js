@@ -1,8 +1,6 @@
 import styled from 'styled-components'
 
 const CodeWrapper = styled.div`
-   background-color: #222;
-   ${''/* background-color: RGB(0, 48, 73); */}
    display: flex;
    height: 100%;
    padding: 100px 0;
