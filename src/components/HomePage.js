@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 import CodeWrapper from './CodeWrapper'
+import Tooltip from './Tooltip'
 import synter from '../utils/synter'
 
 const HomePage = () => {
@@ -12,14 +13,15 @@ const HomePage = () => {
  * welcome to levon arakelyan's personal website!
  */
 
-class levon extends human {
+class levon extends ${ <Tooltip body='human'>👨</Tooltip> } {
 
-   profession = null
-   fortes = ['quick study', 'attention to detail']
+   residence = ${ <Tooltip body='armenia'>🇦🇲</Tooltip> }
+   profession = undefined 🤹‍
+   fortes = [ ${ <Tooltip body='quick study'>👨‍🎓</Tooltip> }, ${ <Tooltip body='attention to detail'>🔎</Tooltip> } ]
 
    ${ <Link to='/interests'>interests()</Link> }
 
-   work = [ ${ <a href='http://mojilytics.com' target='_blank'>mojilytics</a> }, "iUNU" ]
+   work = [ ${ <a href='http://mojilytics.com' target='_blank'>mojilytics</a> }, 'iUNU' ]
 
    social = {
       facebook: '${ <a href='http://facebook.com/levonarakelyan' target='_blank'>levonarakelyan</a> }',
