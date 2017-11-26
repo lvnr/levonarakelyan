@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { connect } from 'react-redux'
 import styled from 'styled-components'
 
-import levon from '../api/levon'
+// import levon from '../api/levon'
 
 const Wrapper = styled.div`
    display: flex;
@@ -40,7 +40,7 @@ class Prompt extends Component {
    }
 
    render() {
-      const { ui } = this.props
+      // const { ui } = this.props
 
       return (
          <Wrapper>
@@ -60,8 +60,4 @@ const mapStateToProps = state => ({
    ui: state.ui
 })
 
-const mapDispatchToProps = dispatch => ({
-
-})
-
-export default connect(mapStateToProps, mapDispatchToProps)(Prompt)
+export default connect(mapStateToProps, null)(Prompt)

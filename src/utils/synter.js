@@ -1,7 +1,7 @@
 /* eslint-disable react/no-danger */
 
 import React from 'react'
-import low from 'lowlight'
+// import low from 'lowlight'
 
 import highlighter from './highlighter'
 
@@ -9,7 +9,7 @@ function createClassNameString(classNames) {
   return classNames.join(' ')
 }
 
-function createChildren(style) {
+function createChildren() {
   let childrenCount = 0
   return children => {
     childrenCount += 1
@@ -37,7 +37,7 @@ function createElement({ node, key }) {
 const synter = (literals, ...expressions) => {
    let children = []
 
-   let codeTree = literals.reduce((accumulator, part, i) => accumulator + 'REACT_NODE' + part)
+   let codeTree = literals.reduce((accumulator, part) => accumulator + 'REACT_NODE' + part)
 
    // let codeTree = low.highlight('js', codeTree).value
 

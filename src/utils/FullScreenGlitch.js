@@ -2,9 +2,9 @@ import React, { Component } from 'react'
 import _ from 'lodash'
 import styled from 'styled-components'
 
-const Wrapper = `
-
-`
+// const Wrapper = `
+//
+// `
 
 const Particle = styled.div`
    width: 10px;
@@ -67,8 +67,8 @@ class FullScreenGlitch extends Component {
    }
 
    generate() {
-      const x = 50
-      const y = 50
+      // const x = 50
+      // const y = 50
       const particles = _.range(100)
 
       return (

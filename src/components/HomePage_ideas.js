@@ -1,17 +1,17 @@
-import React, { PureComponent } from 'react'
+import React from 'react'
 import { Link } from 'react-router-dom'
 
 import CodeWrapper from './CodeWrapper'
 import synter from '../utils/synter'
 
-import SyntaxHighlighter from '../utils/SyntaxHighlighter'
+// import SyntaxHighlighter from '../utils/SyntaxHighlighter'
 import Glitcher from '../utils/Glitcher'
 import FullScreenGlitch from '../utils/FullScreenGlitch'
 
 const HomePage = () => {
    return (
       <CodeWrapper>
-         {/* <FullScreenGlitch /> */}
+         <FullScreenGlitch />
 {synter`
 /**
  * welcome to levon's personal space!

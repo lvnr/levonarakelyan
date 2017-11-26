@@ -39,7 +39,7 @@ export default function () {
       ...rest
     } = props
     const codeTree = language ? low.highlight(language, children) : low.highlightAuto(children)
-    const defaultPreStyle = { backgroundColor: '#fff' }
+    // const defaultPreStyle = { backgroundColor: '#fff' }
     const preProps = Object.assign({}, rest, { className: 'hljs' })
 
     return (
@@ -47,7 +47,7 @@ export default function () {
         <code {...codeTagProps}>
           { codeTree.value.map((node, i) => createElement({
             node,
-            style,
+            // style,
             key: `code-segement-${i}`
           })) }
         </code>

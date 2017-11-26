@@ -31,7 +31,7 @@ import { interests } from './levon'
    'acoustics',
 ]
 
-${ state.showPianoVideo && <iframe width="560" height="315" src="https://www.youtube.com/embed/tEn8mE8gfrU?rel=0&amp;controls=0&amp;showinfo=0" frameBorder="0" allowFullScreen></iframe> }
+${ state.showPianoVideo && <iframe width="560" height="315" src="https://www.youtube.com/embed/tEn8mE8gfrU?rel=0&amp;controls=0&amp;showinfo=0" frameBorder="0" allowFullScreen /> }
 `}
 
          </CodeWrapper>

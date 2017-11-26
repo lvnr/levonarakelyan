@@ -55,7 +55,7 @@ class Glitcher extends Component {
    }
 
    render() {
-      const { children: body } = this.props
+      // const { children: body } = this.props
 
       return (
          <span>
