@@ -1,5 +1,5 @@
 import React from 'react'
-import { Route } from 'react-router-dom'
+import { Route, Switch } from 'react-router-dom'
 
 import HomePage from '../components/HomePage'
 import Languages from '../components/Languages'
@@ -13,9 +13,12 @@ class App extends React.Component {
   render() {
     return (
       <div>
-         <Route exact path='/' component={HomePage} />
-         <Route path='/languages' component={Languages} />
-         <Route path='/interests' component={Interests} />
+         <Switch>
+            <Route exact path='/' component={HomePage} />
+            <Route path='/languages' component={Languages} />
+            <Route path='/interests' component={Interests} />
+            <Route component={NotFoundPage} />
+         </Switch>
       </div>
     )
   }
