@@ -14,7 +14,7 @@ const HomePage = () => {
          {/* <FullScreenGlitch /> */}
 {synter`
 /**
- * welcome to levon's personal space!
+ * welcome to levon arakelyan's personal website!
  */
 
 class levon extends human {
