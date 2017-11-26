@@ -1,0 +1,116 @@
+@font-face {
+	font-family: 'Iosevka';
+	font-weight: 100;
+	src: url('../../public/assets/fonts/iosevka-thin.woff2') format('woff2'), url('../../public/assets/fonts/iosevka-thin.woff') format('woff'), url('../../public/assets/fonts/iosevka-thin.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Iosevka';
+	font-weight: 100;
+	font-style: italic;
+	src: url('../../public/assets/fonts/iosevka-thinitalic.woff2') format('woff2'), url('../../public/assets/fonts/iosevka-thinitalic.woff') format('woff'), url('../../public/assets/fonts/iosevka-thinitalic.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Iosevka';
+	font-weight: 100;
+	font-style: oblique;
+	src: url('../../public/assets/fonts/iosevka-thinoblique.woff2') format('woff2'), url('../../public/assets/fonts/iosevka-thinoblique.woff') format('woff'), url('../../public/assets/fonts/iosevka-thinoblique.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Iosevka';
+	font-weight: 200;
+	src: url('../../public/assets/fonts/iosevka-extralight.woff2') format('woff2'), url('../../public/assets/fonts/iosevka-extralight.woff') format('woff'), url('../../public/assets/fonts/iosevka-extralight.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Iosevka';
+	font-weight: 200;
+	font-style: italic;
+	src: url('../../public/assets/fonts/iosevka-extralightitalic.woff2') format('woff2'), url('../../public/assets/fonts/iosevka-extralightitalic.woff') format('woff'), url('../../public/assets/fonts/iosevka-extralightitalic.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Iosevka';
+	font-weight: 200;
+	font-style: oblique;
+	src: url('../../public/assets/fonts/iosevka-extralightoblique.woff2') format('woff2'), url('../../public/assets/fonts/iosevka-extralightoblique.woff') format('woff'), url('../../public/assets/fonts/iosevka-extralightoblique.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Iosevka';
+	font-weight: 300;
+	src: url('../../public/assets/fonts/iosevka-light.woff2') format('woff2'), url('../../public/assets/fonts/iosevka-light.woff') format('woff'), url('../../public/assets/fonts/iosevka-light.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Iosevka';
+	font-weight: 300;
+	font-style: italic;
+	src: url('../../public/assets/fonts/iosevka-lightitalic.woff2') format('woff2'), url('../../public/assets/fonts/iosevka-lightitalic.woff') format('woff'), url('../../public/assets/fonts/iosevka-lightitalic.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Iosevka';
+	font-weight: 300;
+	font-style: oblique;
+	src: url('../../public/assets/fonts/iosevka-lightoblique.woff2') format('woff2'), url('../../public/assets/fonts/iosevka-lightoblique.woff') format('woff'), url('../../public/assets/fonts/iosevka-lightoblique.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Iosevka';
+	src: url('../../public/assets/fonts/iosevka-regular.woff2') format('woff2'), url('../../public/assets/fonts/iosevka-regular.woff') format('woff'), url('../../public/assets/fonts/iosevka-regular.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Iosevka';
+	font-style: italic;
+	src: url('../../public/assets/fonts/iosevka-italic.woff2') format('woff2'), url('../../public/assets/fonts/iosevka-italic.woff') format('woff'), url('../../public/assets/fonts/iosevka-italic.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Iosevka';
+	font-style: oblique;
+	src: url('../../public/assets/fonts/iosevka-oblique.woff2') format('woff2'), url('../../public/assets/fonts/iosevka-oblique.woff') format('woff'), url('../../public/assets/fonts/iosevka-oblique.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Iosevka';
+	font-weight: 500;
+	src: url('../../public/assets/fonts/iosevka-medium.woff2') format('woff2'), url('../../public/assets/fonts/iosevka-medium.woff') format('woff'), url('../../public/assets/fonts/iosevka-medium.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Iosevka';
+	font-style: italic;
+	font-weight: 500;
+	src: url('../../public/assets/fonts/iosevka-mediumitalic.woff2') format('woff2'), url('../../public/assets/fonts/iosevka-mediumitalic.woff') format('woff'), url('../../public/assets/fonts/iosevka-mediumitalic.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Iosevka';
+	font-style: oblique;
+	font-weight: 500;
+	src: url('../../public/assets/fonts/iosevka-mediumoblique.woff2') format('woff2'), url('../../public/assets/fonts/iosevka-mediumoblique.woff') format('woff'), url('../../public/assets/fonts/iosevka-mediumoblique.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Iosevka';
+	font-weight: 700;
+	src: url('../../public/assets/fonts/iosevka-bold.woff2') format('woff2'), url('../../public/assets/fonts/iosevka-bold.woff') format('woff'), url('../../public/assets/fonts/iosevka-bold.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Iosevka';
+	font-style: italic;
+	font-weight: 700;
+	src: url('../../public/assets/fonts/iosevka-bolditalic.woff2') format('woff2'), url('../../public/assets/fonts/iosevka-bolditalic.woff') format('woff'), url('../../public/assets/fonts/iosevka-bolditalic.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Iosevka';
+	font-style: oblique;
+	font-weight: 700;
+	src: url('../../public/assets/fonts/iosevka-boldoblique.woff2') format('woff2'), url('../../public/assets/fonts/iosevka-boldoblique.woff') format('woff'), url('../../public/assets/fonts/iosevka-boldoblique.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Iosevka';
+	font-weight: 900;
+	src: url('../../public/assets/fonts/iosevka-heavy.woff2') format('woff2'), url('../../public/assets/fonts/iosevka-heavy.woff') format('woff'), url('../../public/assets/fonts/iosevka-heavy.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Iosevka';
+	font-style: italic;
+	font-weight: 900;
+	src: url('../../public/assets/fonts/iosevka-heavyitalic.woff2') format('woff2'), url('../../public/assets/fonts/iosevka-heavyitalic.woff') format('woff'), url('../../public/assets/fonts/iosevka-heavyitalic.ttf') format('truetype');
+}
+@font-face {
+	font-family: 'Iosevka';
+	font-style: oblique;
+	font-weight: 900;
+	src: url('../../public/assets/fonts/iosevka-heavyoblique.woff2') format('woff2'), url('../../public/assets/fonts/iosevka-heavyoblique.woff') format('woff'), url('../../public/assets/fonts/iosevka-heavyoblique.ttf') format('truetype');
+}
