@@ -30,6 +30,10 @@ const CodeWrapper = styled.div`
    a:hover, a:hover span {
       color: black;
    }
+
+   pre {
+      min-width: 50%;
+   }
 `
 
 export default CodeWrapper
